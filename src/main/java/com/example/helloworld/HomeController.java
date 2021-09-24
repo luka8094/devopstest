@@ -7,6 +7,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String home(){
+        system.out.println("test");
         return "index";
     }
 
